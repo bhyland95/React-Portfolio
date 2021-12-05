@@ -7,7 +7,7 @@
     font-size: 1.2rem;
 }
 
-.navbar-logo {
+.navbar-name {
     color: #fff;
 }
 
@@ -34,17 +34,6 @@
     transition: all 0.2s ease-out;
 }
 
-.fa-bars{
-    color: white;
 
-}
 
-.menu-icon {
-   display: none; 
-}
-
-@media screen and (max-width: 960px) {
-    
-
-}
     
