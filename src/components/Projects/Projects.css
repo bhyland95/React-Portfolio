@@ -1,0 +1,121 @@
+.myProjects {
+    padding: 80px 0px 50px;
+    background: rgb(230, 230, 230)
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 10%;
+
+}
+
+.primary {
+    width: 100%; 
+    margin: 5px;
+}
+
+.secondary { 
+    border: 2px solid black;
+    margin: 5px;
+    min-width: 200px;
+    flex: 1 0 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.project-title {
+    border: 2px solid black;
+    background: rgba(0, 0, 0, .7);
+    width: auto;
+    padding: 8px 6px 8px 2px;
+    margin-left: -2px;
+    text-decoration: none;
+}
+
+.project-title:hover {
+    background: rgba(0, 0, 0, 1);
+    cursor: pointer;
+   color: darkblue;
+}
+
+.project-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.project-title p {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgba(255, 255, 255, 1);
+}
+
+.image1 {
+    background-image: url(../../Assets/Images/airport-3511342_640.jpg);
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(../../Assets/Images/social-media_md.jpg);
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(../../Assets/Images/Robot.jpg);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(../../Assets/Images/photos.jpg);
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url(../../Assets/Images/Food.jpg);
+    background-size: cover;
+}
+
+.image6 {
+    background-image: url(../../Assets/Images/runbuddy.jpg);
+    background-size: cover;
+}
+
+.github-link {
+    font-size: 40px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+   
+    text-align: center;
+    margin: 0 10px ;
+    opacity: .8;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:darkblue;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  h3:hover {
+      color: rgb(139, 90, 0);
+  }

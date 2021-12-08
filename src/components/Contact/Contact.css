@@ -1,0 +1,107 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.section{
+	width: 100%;
+	min-height: 70vh;
+	background-color: #ddd;
+}
+
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5vh;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999; 
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+}
+
+
+    
+input {
+    font-size: 1rem;
+    padding: .25rem;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+
+}
+      
+input:focus {
+    border: 1px solid black;
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.modalContainer {
+	background: black;
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+button {
+	
+	border: 1 solid black;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+
+@media screen and (max-width: 768px){
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+        box-shadow: 0 0 20px 0 #999; 
+    }
+
+    textarea {
+        width: 220px;
+        height: 120px;
+        border: 3px solid #cccccc;
+        padding: 5px;
+    }
+
+}

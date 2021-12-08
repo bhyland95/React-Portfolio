@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import { MenuItems } from './components/Navbar/MenuItems';
 import Navbar2 from './components/Nav';
 import "bootstrap/dist/css/bootstrap.min.css"
+import Footer from './components/Footer/Footer';
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <main>
         {renderPage()}
       </main>
+      <Footer />
     </div>
 
   );

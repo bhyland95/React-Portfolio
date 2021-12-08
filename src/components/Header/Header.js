@@ -6,7 +6,7 @@ import { MenuItems } from '../Navbar/MenuItems';
 
 
 
-function Header({ setCurrentPage, CurrentTitle }) {
+function Header({ setCurrentPage, XurrentTitle }) {
 
         const [currentTitle, setCurrentTitle] = useState(MenuItems[0].title)
 
@@ -15,7 +15,7 @@ function Header({ setCurrentPage, CurrentTitle }) {
                   case 'Projects':
                     return "Projects"
                   case 'Contact':
-                    return "Contact"
+                    return "Contact Me"
                   case 'Resume':
                     return "Resume"
                   default:
@@ -28,7 +28,7 @@ function Header({ setCurrentPage, CurrentTitle }) {
                 <header>
                         <div className="hero-image">
                                 <nav>
-                                        <Navbar setCurrentPage={setCurrentPage} title='Blake Hyland' setCurrentTitle={setCurrentTitle} />
+                                        <Navbar setCurrentPage={setCurrentPage} title='Blake Hyland' setCurrentTitle={setCurrentTitle} currentTitle={currentTitle} />
                                 </nav>
                                 <h1 className="hero-text">{renderTitle()}</h1>
                         </div>
