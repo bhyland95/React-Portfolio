@@ -43,7 +43,7 @@ input:focus {
 }
 
 textarea {
-	width: 600px;
+	width: 350px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -88,6 +88,15 @@ button {
 }
 
 
+@media screen and (max-width: 800px){
+	textarea {
+        width: 320px;
+        height: 120px;
+        border: 3px solid #cccccc;
+        padding: 5px;
+    }
+
+}
 @media screen and (max-width: 768px){
 
     form {

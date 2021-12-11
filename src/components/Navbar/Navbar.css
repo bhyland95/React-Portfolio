@@ -1,10 +1,12 @@
+
+
 .NavbarItems{
     background: rgba(0, 0, 0, 0.45);
 
     height: 90px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 1.2rem;
 }
 
@@ -31,65 +33,103 @@
     color: #fff;
 }
 
-.nav-menu{
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
+
+.navbar-links {
+    height: 100%;
+    
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
     list-style: none;
-    text-align: center;
-    width: 70vw;
-    justify-content: end;
-    margin-right: 2rem;
+    color: white;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+
+    padding: 1rem;
 }
 
 .nav-links {
-    color: white ;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+    color: white;
 }
 
-.nav-links:hover {
-    background-color: #6d76f7;
-    border-radius: 4px;
+.Active {
+    color:orange
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar-links li a:hover {
+    color: orange;
+    
     transition: all 0.2s ease-out;
 }
+
+
 
 
 @media (max-width: 768px) {
  
     /* NAVBAR */
-    
-    .toggle-button{
+    .NavbarItems {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .toggle-button {
         display: flex;
     }
 
-    .nav-links {
+    .navbar-links {
         display: none;
         width: 100%;
     }
 
-    .NavbarItems {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-menu {
+    .mobile-links {
+        display: flex;
         width: 100%;
-        flex-direction: column;
+        
     }
 
-    .nav-menu li {
+    .mobile-links ul {
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .mobile-links ul li {
         text-align: center;
     }
-
-    .nav-links li a {
-        padding: .5rem 1rem;
-    }
-
-    .nav-links.active{
-        display: flex;
-    }
-
  
+    .mobile-links li a:hover {
+        color: orange;
+        
+        transition: all 0.2s ease-out;
+    }
 }   
     

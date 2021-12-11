@@ -6,7 +6,7 @@ import { MenuItems } from '../Navbar/MenuItems';
 
 
 
-function Header({ setCurrentPage, XurrentTitle }) {
+function Header({ setCurrentPage, currentPage }) {
 
         const [currentTitle, setCurrentTitle] = useState(MenuItems[0].title)
 
@@ -28,7 +28,7 @@ function Header({ setCurrentPage, XurrentTitle }) {
                 <header>
                         <div className="hero-image">
                                 <nav>
-                                        <Navbar setCurrentPage={setCurrentPage} title='Blake Hyland' setCurrentTitle={setCurrentTitle} currentTitle={currentTitle} />
+                                        <Navbar setCurrentPage={setCurrentPage} title='Blake Hyland' setCurrentTitle={setCurrentTitle} currentPage={currentPage} />
                                 </nav>
                                 <h1 className="hero-text">{renderTitle()}</h1>
                         </div>
