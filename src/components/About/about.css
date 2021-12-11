@@ -22,9 +22,10 @@
 .image-section{
 	float: right;
 	width: 40%;
+	height: 50%;
 }
-.image-section img{
-	width: 100%;
+.resize {
+	width: 80%;
 	height: auto;
 }
 .content-section .title{

@@ -22,7 +22,7 @@ function About() {
 
                                 </div>
                                 <div class="image-section">
-                                        <img src={require("../../Assets/Pizza.jpg").default}></img>
+                                        <img className="resize" src={require("../../Assets/Profile.jpg").default}></img>
                                 </div>
                         </div>
                 </div>
