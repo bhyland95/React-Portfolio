@@ -1,4 +1,4 @@
-# Blake Hyland's Portfoloio
+# Blake Hyland's React-Portfoloio
 
   ## Description
   This document is meant to serve as a portfolio of my work and let the world know a little bit more about me. It also serves as a means of contacting me. 
