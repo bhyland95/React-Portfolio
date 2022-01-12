@@ -26,11 +26,11 @@ function Projects() {
                             </div>
                         </a>
         
-                        <a class="secondary image3" href="https://bhyland95.github.io/robot-gladiators/" target="_blank">
+                        <a class="secondary image3" href="https://peaceful-gorge-13766.herokuapp.com/" target="_blank">
                             <div class="project-display">
                                 <div class="project-title">
-                                    <h3>Robot Gladiators</h3>
-                                    <a className="github-link" href='https://github.com/bhyland95/robot-gladiators' target="_blank"><i className="fab fa-github"></i></a>
+                                    <h3>SubscripZen</h3>
+                                    <a className="github-link" href='https://github.com/bhyland95/Subscripzen' target="_blank"><i className="fab fa-github"></i></a>
                                 </div>
                             </div>
                         </a>
