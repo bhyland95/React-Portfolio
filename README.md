@@ -16,4 +16,4 @@
   ![Capture](https://user-images.githubusercontent.com/84405590/145688814-c5668c60-952f-4e88-9d20-0d68cb0b28ad.PNG)
 
 
-  You can visit my portfolio here: 
+  You can visit my portfolio here: https://bhyland95.github.io/react-portfolio/
