@@ -8,10 +8,10 @@ function Projects() {
                 <div class="myProjects">
                     <div class="project-container">
         
-                        <a class="secondary image1" href="https://bhyland95.github.io/Project1/" target="_blank">
+                        <a class="secondary image1" href="https://obscure-stream-43810.herokuapp.com/" target="_blank">
                             <div class="project-display ">
                                 <div class="project-title">
-                                    <h3>Travel Bonanza</h3>
+                                    <h3>Shop-Shop-Shop</h3>
                                     <a className="github-link" href='https://github.com/bhyland95/Project1' target="_blank"><i className="fab fa-github"></i></a>
                                 </div>
                             </div>
@@ -53,11 +53,11 @@ function Projects() {
                             </div>
                         </a>
 
-                        <a class="secondary image6" href="https://bhyland95.github.io/run-buddy/" target="_blank">
+                        <a class="secondary image6" href="https://quiet-earth-87101.herokuapp.com/" target="_blank">
                             <div class="project-display">
                                 <div class="project-title">
-                                    <h3>Placeholder</h3>
-                                    <a className="github-link"  href='https://github.com/bhyland95/run-buddy' target="_blank"><i className="fab fa-github"></i></a>
+                                    <h3>Deep Thoughts</h3>
+                                    <a className="github-link"  href='https://github.com/bhyland95/deep-thoughts' target="_blank"><i className="fab fa-github"></i></a>
                                 </div>
                             </div>
                         </a>
