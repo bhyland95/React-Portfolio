@@ -1,4 +1,11 @@
-
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
 .NavbarItems{
     background: rgba(0, 0, 0, 0.45);
@@ -94,12 +101,23 @@
 
 
 @media (max-width: 768px) {
+
+     /* Hero Text */
+    .mobile-hero-text {
+       display: none;
+      }
  
     /* NAVBAR */
+
+    
+    
     .NavbarItems {
+        background: rgba(0, 0, 0, 0.9);
+        height: 90px;
         flex-direction: column;
         align-items: flex-start;
         height: auto;
+        z-index: 2;
     }
 
     .toggle-button {

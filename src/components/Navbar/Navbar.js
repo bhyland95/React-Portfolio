@@ -1,17 +1,31 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { MenuItems } from "./MenuItems"
 import './Navbar.css'
 
-function Navbar({ setCurrentPage, title, setCurrentTitle, currentPage }) {
+function Navbar({ setCurrentPage, title,  currentPage }) {
 
         const [switchToggle, setSwitchToggle] = useState(false)
+        const [currentTitle, setCurrentTitle] = useState(MenuItems[0].title)
 
-        const ToggleSwitch = () => { 
+        function renderTitle() {
+                switch (currentTitle) {
+                        case 'Projects':
+                                return "Projects"
+                        case 'Contact':
+                                return "Contact Me"
+                        case 'Resume':
+                                return "Resume"
+                        default:
+                                return "About"
+                }
+        }
+
+        const ToggleSwitch = () => {
                 switchToggle ? setSwitchToggle(false) : setSwitchToggle(true)
 
         }
 
-        return (
+        return (<div>
                 <nav className="NavbarItems">
                         <h2 className="navbar-name">{title}</h2>
                         <a href="#" className="toggle-button" onClick={ToggleSwitch}>
@@ -23,16 +37,16 @@ function Navbar({ setCurrentPage, title, setCurrentTitle, currentPage }) {
                                 <ul >
                                         {MenuItems.map((item, index) => {
                                                 return (
-                                                        <li key={index}
+                                                        <li key={index} 
                                                         >
                                                                 <a
-                                                                        className={ "nav-links" + " " +
-                                                                        ((currentPage === item.title) ? "Active" : "")
-                                                                }
+                                                                        className={"nav-links" + " " +
+                                                                                ((currentPage === item.title) ? "Active" : "")
+                                                                        }
 
                                                                         href={item.url}
                                                                         onClick={() => { setCurrentPage(item.title); setCurrentTitle(item.title) }}
-                                                                
+
                                                                 >
                                                                         {item.title}
                                                                 </a>
@@ -42,6 +56,8 @@ function Navbar({ setCurrentPage, title, setCurrentTitle, currentPage }) {
                                 </ul>
                         </div>
                 </nav>
+                <h1 className={((switchToggle) ? "mobile-hero-text" : "hero-text")}>{renderTitle()}</h1>
+        </div>
         )
 }
 
