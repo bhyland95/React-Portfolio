@@ -8,17 +8,17 @@ li {
     padding:0;
     margin: 0;
 }
-a {
+.resumeLink {
     text-decoration: none;
-    color: rgb(75, 38, 9);
+    color: rgb(202, 131, 0);
     
     padding: 4px;
     margin: 10px;
 }
 
-a:hover {
+.resumeLink:hover {
     border-bottom: 1px solid rgb(75, 38, 9) ;
-    color: rgb(75, 38, 9);
+    color: rgb(145, 94, 0);
 }
 
 h2 {
