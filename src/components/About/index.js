@@ -12,11 +12,7 @@ function About() {
                                         </div>
                                         <div class="content">
                                                 <h4>Web Developer</h4>
-                                                <p>My name is Blake Hyland. I grew up in the great state of Texas, but I am currently located in Utah. I've
-                                                        also had the privledge to live in Brazil and New York. Although I have a Master's Degree in Accounting,
-                                                        my passion lies in web development. I am pursuing earning certificates in Full-Stack development by the
-                                                        end of 2021. When i'm not busy improving myself in my coding journey, I enjoy playing soccer and
-                                                        exploring the beautiful mountains of Utah.</p>
+                                                <p>My name is Blake Hyland. I am a web developer with a Master’s degree in accountancy. Recently, I earned a certificate in Full Stack Development from the University of Utah with skills in JavaScript, CSS, React.js, and database management. I am passionate about learning new technologies and techniques to perfect my expertise. I am known as an innovative problem solver and an excellent team member. During a recent project, I applied aspects of GraphQL and UX to help users keep track of online subscriptions. Check it out it my portfolio, it is called Subscripzen. I am seeking mentorship and the opportunity to utilize my analytical, technical, and programming skills to thrive as a software engineer. </p>
 
                                         </div>
 
