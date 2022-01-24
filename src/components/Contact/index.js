@@ -43,7 +43,9 @@ function Contact() {
 
         return (
                 <div class="section">
-                        <br /><h2>Fill out the form below to get in touch with me</h2><br />
+                        <br /><h2>Fill out the form below to get in touch with me.</h2><br />
+
+                        <p> You can also reach me at 'blakehyland95@gmail.com' or (903) 316-3321.</p>
                         <form id="contact-form" onSubmit={handleSubmit}>
                                 <div>
                                         <label htmlFor="name">Name:</label>

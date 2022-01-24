@@ -12,6 +12,15 @@
 
 }
 
+.project {
+    max-width: 500px;
+}
+
+.project p {
+    text-align: left;
+    font-weight: 550
+}
+
 .primary {
     width: 100%; 
     margin: 5px;
