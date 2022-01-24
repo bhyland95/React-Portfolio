@@ -17,3 +17,12 @@
 
 
   You can visit my portfolio here: https://bhyland95.github.io/react-portfolio/
+
+
+If you have any questions, please reach out! 
+  <br />
+  Find me on GitHub: [Bhyland95](https://github.com/Bhyland95)<br />
+  <br />
+  Email me: blakehyland95@gmail.com
+ 
+
